@@ -1,0 +1,23 @@
+### List all tasks
+
+GET http://localhost:3000/tasks
+
+
+### get one task by Id
+GET http://localhost:3000/tasks/dec390c6-3332-4ee7-a301-7d1581dc384a
+
+
+
+### create a task 
+
+
+POST http://localhost:3000/tasks
+
+
+Content-Type: application/x-www-form-urlencoded
+Accept: application/gzip
+
+{
+    title:"first-task",
+    description:"hello from task one",
+}
